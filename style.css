@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.greet-box{
+    width: 400px;
+    height: 350px;
+    background-color:  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.greet-box label{
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.greet-box input{
+    border-radius: 20px;
+    height: 50px;
+
+}
+
+.greet-box .btn{
+    border-radius: 20px;
+    height: 50px;
+}
+
+.greet-box .btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+
+.greet-box .alert{
+    border-radius: 20px;
+}
